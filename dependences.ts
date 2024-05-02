@@ -31,7 +31,7 @@ import  sha512
 import {
     Bson,
     MongoClient,
-} from "https://deno.land/x/mongo@v0.31.1/mod.ts";
+} from "https://deno.land/x/mongo@v0.33.0/mod.ts";
 
 import { Client as ClientMariaDB } from "https://deno.land/x/mysql/mod.ts";
 
@@ -50,7 +50,7 @@ export type {jwtHeader, jwtPayload };
 export default sha512 ;
 
 export {    
-    Bson,
+    //Bson,
     MongoClient,
 }
 export {    

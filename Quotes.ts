@@ -1,4 +1,4 @@
-app.use(routerQuotes.routes());
+app.use(quotes.routes());
 app.use(routerQuotes.allowedMethods());
 //--- Users
 app.use(routerUsers.routes());
